@@ -25,7 +25,7 @@ jobs:
       env:
         SERVER_IP: "jorisalkema.nl"
       run: |
-        ssh -o StrictHostKeyChecking=no user@$SERVER_IP '
+        ssh -o StrictHostKeyChecking=no joris@$SERVER_IP '
           cd /var/www/website
           git pull
         '
