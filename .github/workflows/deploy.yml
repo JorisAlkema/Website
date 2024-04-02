@@ -26,6 +26,6 @@ jobs:
         SERVER_IP: "jorisalkema.nl"
       run: |
         ssh -o StrictHostKeyChecking=no user@$SERVER_IP '
-          cd /path/to/website
+          cd /var/www/website
           git pull
         '
