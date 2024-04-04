@@ -24,8 +24,9 @@ jobs:
     - name: Deploy to Server
       env:
         SERVER_IP: "jorisalkema.nl"
+        PORT: ${{secrets.SERVER_SSH_PORT}}
       run: |
-        ssh -o StrictHostKeyChecking=no joris@$SERVER_IP '
+        ssh -o StrictHostKeyChecking=no joris@$SERVER_IP -p $PORT '
           cd /var/www/website
           git pull
         '
