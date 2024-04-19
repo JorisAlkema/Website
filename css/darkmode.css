@@ -58,15 +58,6 @@ html {
       color: #ddd;
       border-radius: 4px;
     }
-    
-    a:link.light-blue {
-      color: #00449E; 
-    }
-    a:visited {
-      color: rgb(191,90,242);
-    }
-    a:visited.light-blue {
-      color: #5E2CA5;
-    }
+
   }
   
