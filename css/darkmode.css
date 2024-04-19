@@ -2,10 +2,18 @@
 html {
     font-size: 21px;
 }
-  
+
+.custom-link-color {
+  color: #0077aa;
+}
+
 .helvetica {
     font-family: "Helvetica", sans-serif;
-    
+}
+
+.castillia {
+    font-family: "Castillia", sans-serif;
+    line-height: 1.4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,9 +59,6 @@ html {
       border-radius: 4px;
     }
     
-    a:link {
-      color: rgb(10,132,255);
-    }
     a:link.light-blue {
       color: #00449E; 
     }
